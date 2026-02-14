@@ -1,5 +1,6 @@
 function sendAnswer(answer) {
-  fetch("http://localhost:3000/answer", {
+  fetch("https://dhendup-to-ashmi.onrender.com", {
+    //http://localhost:3000/answer
     method: "POST",
     headers: {
       "Content-Type": "application/json"
