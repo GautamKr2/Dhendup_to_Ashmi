@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+</head>
+<body>
+  <h2>Admin Panel 🔒</h2>
+  <input type="password" id="pass" placeholder="Enter password">
+  <button onclick="view()">View Answer</button>
+  <p id="result"></p>
+
+<script>
+const PASSWORD = "love123"; // change this
+const API = "https://date-proposal-backend.onrender.com/answer";
+
+function view() {
+  if (document.getElementById("pass").value !== PASSWORD) {
+    alert("Wrong password");
+    return;
+  }
+
+  fetch(API)
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("result").innerText =
+        "Her answer: " + data.answer;
+    });
+}
+</script>
+</body>
+</html>
