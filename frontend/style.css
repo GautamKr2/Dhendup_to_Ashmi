@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 60vh;
+  text-align: center;
+
+  /* TOP image first, background second */
+  background-image:
+    url("bg.jpg"),   /* your vertical photo */
+    url("bg2.jpg");  /* flower garden */
+
+  background-size:
+    contain,
+    cover;
+
+  background-position:
+    center,
+    center;
+
+  background-repeat:
+    no-repeat,
+    no-repeat;
+}
+
+.container {
+  margin: 200px auto;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 40px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
