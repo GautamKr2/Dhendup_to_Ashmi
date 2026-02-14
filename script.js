@@ -14,12 +14,12 @@ function sendAnswer(answer) {
 
 function sayYes() {
   sendAnswer("YES");   // ✅ sends YES to backend
-  document.getElementById("response").innerText = "💖 Yay!🌸🌹🌼🌺🌷🌻💐";
+  document.getElementById("response1").innerText = "💖 Yay!🌸🌹🌼🌺🌷🌻💐";
 }
 
 function sayNo() {
   sendAnswer("NO");    // ✅ sends NO to backend
-  document.getElementById("response").innerText = "Thangni angni logw nwngni gwdan haijo😊";
+  document.getElementById("response2").innerText = "Thangni angni logw nwngni gwdan haijo😊";
 }
 
 

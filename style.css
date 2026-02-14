@@ -29,10 +29,21 @@ body {
   display: inline-block;
 }
 
+.container h1 {
+  font-size: 24px;
+  color: #fff5f9;
+  border: 2px solid #fff7f77d;
+  border-radius: 5px;
+  padding: 12px;
+  box-shadow: 4px 4px 2px 5px #e9f8f738;
+}
+
 button {
   padding: 10px 20px;
   margin: 10px;
-  font-size: 18px;
+  font-size: 24px;
+  background-color: #ff16cdde;
+  color: #b5fff4f2;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -42,3 +53,15 @@ button:hover {
   transform: scale(1.1);
 }
 
+.resp {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+#response1 {
+  color: #73d3fffc;
+}
+
+#response2 {
+  color: rgb(255 96 96);
+}
