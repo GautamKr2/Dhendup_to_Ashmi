@@ -1,5 +1,5 @@
 function sendAnswer(answer) {
-  fetch("https://dhendup-to-ashmi.onrender.com", {
+  fetch("https://dhendup-to-ashmi.onrender.com/answer", {
     //http://localhost:3000/answer
     method: "POST",
     headers: {
